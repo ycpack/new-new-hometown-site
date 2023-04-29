@@ -1,0 +1,211 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero{
+    background: url("https://live.staticflickr.com/4209/35117426350_7b9965d6e2_b.jpg");
+    background-size: cover;
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 720px;
+    height: 343px;
+    }
+    .hero:hover{
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/06/Akbar_Fort_Allahabad.jpg");
+    }
+.hh{
+   display: flex;
+   flex-direction: column;
+   //justify-content: center;
+   align-items: center;
+
+}
+.visit{
+   
+    width: 180px;
+   border-radius: 10px;
+    align-self: center;
+    background: #1D3557;
+    color: white;
+    padding: 5px 12px 5px 12px;
+    margin: 119px 248px 182px 247px;
+    height: 62px;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 32px;
+
+
+}
+
+#alld{
+    border-radius: 10px;
+    background: #457B9D;
+    margin: -174px 154px 119px 154px;
+    width: 412px;
+height: 42px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 18.72px;
+line-height: 22px;
+text-align: center;
+color: white;
+padding: 5px 9px 8px 9px;
+}
+
+.activity{
+    background:  linear-gradient(skyblue, wheat);
+    display: block;
+    margin: -20px auto 0px auto;
+    width: 720px;
+    height: 378px;
+  
+    
+   
+}
+#top{
+    width: 439px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    font-family: 'Arial';
+font-weight: bolder;
+font-size: 18px;
+line-height: 82px;
+height: 25px;
+color: #1D3557;
+}
+
+
+    
+.fst{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 100px;
+}
+.fstimg{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 83px;
+   
+    
+}
+.scndimg{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+.thrdimg{
+     display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 83px;
+}
+h3{
+    width: 183px;
+height: 32px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+color: #1D3557;
+}
+#fsthh{
+   margin-right: 0px;
+   margin-left: -40px;
+}
+#fstpp{
+    margin: 5px 32px 38px -32px;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: purple;
+}
+#sndpp{
+    margin: 5px 32px 38px 32px;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: purple;
+}
+#thrdhh{
+   margin-left: 30px;
+   margin-right: -40px;
+}
+#thrdpp{
+    margin: 5px -32px 38px 30px;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: purple;
+}
+.last{
+    display: block;
+    margin: 50px auto 50px auto;
+    border: 0px #A8DADC;
+    background: #A8DADC;
+    width: 400px;
+height: 294px;
+border-radius: 10px;
+border-bottom: 6px solid indigo;
+}
+.divide{
+    display: flex;
+    justify-content: space-between;
+}
+#myimg{
+    width: 180px;
+    background-size: cover;
+}
+.borderblue{
+    border: 4px double red;
+    margin: 23px 12px 23px 13px;
+    border-radius: 10px;
+    
+}
+
+#guide{
+    color: #1D3557;
+    font-weight: bold;
+    margin: 49px 4px 13px 1px;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+}
+#spc{
+    margin-right: 5px;
+}
+img {
+    width: 100px;
+}
